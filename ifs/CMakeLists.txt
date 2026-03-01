@@ -18,7 +18,7 @@ set( ifs_SOURCES
         yoecld.F90
         yoe_spectral_planck.F90
         cloud_overlap_decorr_len.F90
-        yoerad.F90
+        yoerad_ecrad.F90
 )
 
 ecbuild_add_library(

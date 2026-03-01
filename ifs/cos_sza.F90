@@ -81,7 +81,7 @@ USE YOMHOOK  , ONLY : LHOOK, DR_HOOK
 USE YOMCST_ECRAD , ONLY : RPI, RDAY
 USE YOMRIP   , ONLY : YRRIP
 USE YOERIP   , ONLY : YRERIP
-USE YOERAD   , ONLY : YRERAD
+USE YOERAD_ECRAD, ONLY : YRERAD
 USE YOMLUN_ECRAD, ONLY : NULOUT
 
 !     ------------------------------------------------------------------

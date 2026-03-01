@@ -52,7 +52,7 @@ USE radiation_config, ONLY :   config_type, &
        &                       IIceModelFu, IIceModelBaran, IIceModelYi, &
        &                       IOverlapExponential, IOverlapMaximumRandom, &
        &                       IOverlapExponentialRandom, IGasModelECCKD, IGasModelIFSRRTMG
-USE YOERAD, ONLY : TERAD
+USE YOERAD_ECRAD, ONLY : TERAD
 
 IMPLICIT NONE
 
@@ -111,7 +111,7 @@ CONTAINS
     USE YOMHOOK,  ONLY : LHOOK, DR_HOOK, JPHOOK
     USE YOMLUN_ECRAD, ONLY : NULOUT, NULERR
     !USE YOESRTWN, ONLY : NMPSRTM
-    USE YOERAD,   ONLY : TERAD
+    USE YOERAD_ECRAD,   ONLY : TERAD
     USE YOEPHY,   ONLY : TEPHY
     !USE YOMCOMPO, ONLY : TCOMPO
 
