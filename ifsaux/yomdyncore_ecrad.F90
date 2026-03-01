@@ -7,7 +7,7 @@
 ! granted to it by virtue of its status as an intergovernmental organisation
 ! nor does it submit to any jurisdiction.
 
-MODULE YOMDYNCORE
+MODULE YOMDYNCORE_ECRAD
 
 USE PARKIND1  ,ONLY : JPRB
 
@@ -23,4 +23,4 @@ LOGICAL, PARAMETER :: LAQUA = .false.
 REAL(KIND=JPRB), PARAMETER :: RPLRG = 1.0_JPRB
 
 
-END MODULE YOMDYNCORE
+END MODULE YOMDYNCORE_ECRAD
